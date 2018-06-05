@@ -1,0 +1,11 @@
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.csprojAssemblyReference.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.csproj.CoreCompileInputs.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.AssemblyInfoInputs.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.AssemblyInfo.cs
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\bin\Debug\netcoreapp2.1\Array_Reverse.deps.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\bin\Debug\netcoreapp2.1\Array_Reverse.runtimeconfig.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\bin\Debug\netcoreapp2.1\Array_Reverse.runtimeconfig.dev.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\bin\Debug\netcoreapp2.1\Array_Reverse.dll
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\bin\Debug\netcoreapp2.1\Array_Reverse.pdb
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.dll
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_Reverse\Array_Reverse\obj\Debug\netcoreapp2.1\Array_Reverse.pdb
