@@ -11,17 +11,27 @@ namespace Array_Reverse
             Console.ReadLine();
         }
 
+        /*
+         * ArrayReverse method - reverses the order of elements within an array
+         * @param integer array arr - array of integers of any length
+         * @return integer array newArr - resultant reversed array of integers
+         */
         static int[] ArrayReverse(int[] arr)
         {
-            int n = arr.Length;
-            int[] newArr = new int[n];
+            int n = arr.Length; //Set variable for length, since it is used often.
+            int[] newArr = new int[n]; //Declare new integer array to hold solution
             for (int i = 0; i < n; i++)
             {
-                newArr[i] = arr[n - (i + 1)];
+                newArr[i] = arr[n - (i + 1)]; //Assign values to new array
             }
-            return newArr;
+            return newArr; //Return the resultant
         }
 
+        /*
+         * ArrayToString method - Presents array in an easily read foramt
+         * @param integer array arr - input array to be displayed
+         * @return string str - array in visual format
+         */
         static string ArrayToString(int[] arr)
         {
             string str = "[";
