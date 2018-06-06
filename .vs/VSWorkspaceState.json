@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Challenges",
-    "\\Challenges\\Array_Reverse",
+    "\\Challenges\\Array_binary_search\\Array_binary_search",
     "\\Challenges\\Array_Reverse\\Array_Reverse",
+    "\\Data_Structures",
     "\\Data_Structures\\Arrays"
   ],
-  "SelectedNode": "\\Challenges\\Array_Reverse\\Array_Reverse\\Program.cs",
+  "SelectedNode": "\\Challenges\\Array_binary_search",
   "PreviewInSolutionExplorer": false
 }

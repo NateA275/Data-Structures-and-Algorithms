@@ -1,0 +1,11 @@
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\bin\Debug\netcoreapp2.1\Array_binary_search.deps.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\bin\Debug\netcoreapp2.1\Array_binary_search.runtimeconfig.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\bin\Debug\netcoreapp2.1\Array_binary_search.runtimeconfig.dev.json
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\bin\Debug\netcoreapp2.1\Array_binary_search.dll
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\bin\Debug\netcoreapp2.1\Array_binary_search.pdb
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.csprojAssemblyReference.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.csproj.CoreCompileInputs.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.AssemblyInfoInputs.cache
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.AssemblyInfo.cs
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.dll
+C:\Users\Nate\codefellows\401\Data-Structures-and-Algorithms\Challenges\Array_binary_search\Array_binary_search\obj\Debug\netcoreapp2.1\Array_binary_search.pdb
