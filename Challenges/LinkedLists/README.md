@@ -10,7 +10,7 @@ sequentially, making implementation a case-by-case decision.
 
 ## Visual
 
-![linked_list](../../assets/linked_list.jpg)
+![linked_list](../../assets/linked_list.PNG)
 
 ## Implementation
 
