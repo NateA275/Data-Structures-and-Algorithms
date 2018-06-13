@@ -18,6 +18,11 @@ namespace LinkedLists.Classes
         }
 
 
+        /// <summary>
+        /// KthElement - Select an element that is k elements from the end of the linked list
+        /// </summary>
+        /// <param name="k"> int - number from last element to be selected </param>
+        /// <returns> Node - node that is k elements from the end </returns>
         public Node KthElement(int k)
         {
             Current = Head;
@@ -35,6 +40,7 @@ namespace LinkedLists.Classes
                 return null;
             return Current;
         }
+
 
         /// <summary>
         /// Add - adds a node to the front of the linked list
