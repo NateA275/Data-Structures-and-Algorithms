@@ -71,5 +71,44 @@ namespace MyLinkedListTest
             //Assert
             Assert.Null(found);
         }
+
+
+        [Theory]
+        [InlineData(0, 4)]
+        [InlineData(1, 3)]
+        [InlineData(2, 2)]
+        [InlineData(3, 1)]
+        public void KthElementReturnsNode(int value, int expected)
+        {
+            //Arrange
+            MyLinkedList ll = new MyLinkedList(new Node(1));
+            Node n2 = new Node(2);
+            Node n3 = new Node(3);
+            Node n4 = new Node(4);
+
+            //Act
+            ll.AddLast(n2);
+            ll.AddLast(n3);
+            ll.AddLast(n4);
+            Node found = ll.KthElement(value);
+
+            //Assert
+            Assert.Equal(expected, found.Value);
+        }
+
+        [Theory]
+        [InlineData(5)]
+        public void KthElementReturnsNull(int value)
+        {
+            //Arrange
+            MyLinkedList ll = new MyLinkedList(new Node(1));
+
+            //Act
+            Node found = ll.KthElement(value);
+
+            //Assert
+            Assert.Null(found);
+
+        }
     }
 }

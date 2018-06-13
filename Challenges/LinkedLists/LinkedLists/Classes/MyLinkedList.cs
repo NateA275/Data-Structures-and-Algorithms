@@ -18,6 +18,24 @@ namespace LinkedLists.Classes
         }
 
 
+        public Node KthElement(int k)
+        {
+            Current = Head;
+            Node runner = Head;
+            int counter = 0;
+
+            while (runner.Next != null)
+            {
+                counter++;
+                runner = runner.Next;
+                if (counter > k)
+                    Current = Current.Next;
+            }
+            if (k > counter)
+                return null;
+            return Current;
+        }
+
         /// <summary>
         /// Add - adds a node to the front of the linked list
         /// </summary>
