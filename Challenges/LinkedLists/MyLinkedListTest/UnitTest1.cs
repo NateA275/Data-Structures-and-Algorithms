@@ -110,5 +110,95 @@ namespace MyLinkedListTest
             Assert.Null(found);
 
         }
+
+        [Fact]
+        public void MergeReturnsNode()
+        {
+            //Arrange
+            MyLinkedList list1 = new MyLinkedList(new Node(1));
+            MyLinkedList list2 = new MyLinkedList(new Node(5));
+
+            //Act
+            Node found = list1.Merge(list1, list2);
+
+            //Assert
+            Assert.IsType<Node>(found);
+        }
+
+        [Theory]
+        [InlineData(0, 4)]
+        [InlineData(1, 15)]
+        [InlineData(2, 3)]
+        [InlineData(3, 10)]
+        public void MergePutsNodesInCorrectOrder(int k, int value)
+        {
+            //Arrange
+            MyLinkedList list1 = new MyLinkedList(new Node(1));
+            MyLinkedList list2 = new MyLinkedList(new Node(5));
+
+            //Act
+            list1.AddLast(new Node(2));
+            list1.AddLast(new Node(3));
+            list1.AddLast(new Node(4));
+            list2.AddLast(new Node(10));
+            list2.AddLast(new Node(15));
+            list1.Merge(list1, list2);
+            Node found = list1.KthElement(k);
+
+            //Assert
+            Assert.Equal(value, found.Value);
+        }
+
+        [Theory]
+        [InlineData(0, 20)]
+        [InlineData(1, 15)]
+        [InlineData(2, 10)]
+        [InlineData(3, 2)]
+        [InlineData(4, 5)]
+        [InlineData(5, 1)]
+        public void MergeWorksWhenSecondListIsLonger(int k, int value)
+        {
+            //Arrange
+            MyLinkedList list1 = new MyLinkedList(new Node(1));
+            MyLinkedList list2 = new MyLinkedList(new Node(5));
+
+            //Act
+            list1.AddLast(new Node(2));
+            list2.AddLast(new Node(10));
+            list2.AddLast(new Node(15));
+            list2.AddLast(new Node(20));
+            list1.Merge(list1, list2);
+            Node found = list1.KthElement(k);
+
+            //Assert
+            Assert.Equal(value, found.Value);
+        }
+
+        [Theory]
+        [InlineData(0, 5)]
+        [InlineData(1, 4)]
+        [InlineData(2, 3)]
+        [InlineData(3, 10)]
+        [InlineData(4, 2)]
+        [InlineData(5, 5)]
+        [InlineData(6, 1)]
+        public void MergeWorksWhenFirstListIsLonger(int k, int value)
+        {
+            //Arrange
+            MyLinkedList list1 = new MyLinkedList(new Node(1));
+            MyLinkedList list2 = new MyLinkedList(new Node(5));
+
+            //Act
+            list1.AddLast(new Node(2));
+            list1.AddLast(new Node(3));
+            list1.AddLast(new Node(4));
+            list1.AddLast(new Node(5));
+            list2.AddLast(new Node(10));
+            list1.Merge(list1, list2);
+            Node found = list1.KthElement(k);
+
+            //Assert
+            Assert.Equal(value, found.Value);
+        }
     }
 }

@@ -29,7 +29,7 @@ Linked list are best avoided when sorting and when random access are common requ
 This method is an exercise in manipulating linked lists. 
 It returns the element that is k elements from the last element.
 
-## Challange
+## Challenge
 
 Write a method for the Linked List class which takes a number, k, as a parameter.
 Return the node that is k from the end of the linked list. You have access to the Node class and 
@@ -38,4 +38,24 @@ all the properties on the Linked List class as well as the methods created in pr
 ## Solution
 
 ![kth_Element](../../assets/kth_element.jpg)
+
+
+# Merge Linked Lists
+
+This method can merge two seperate linked list into one linked list.
+It takes two linked lists as parameters, and returns the head of the resultant linked list.
+
+## Challenge
+
+Write a function called mergeLists which takes two linked lists as arguments.
+Zip the two linked lists together into one so that the nodes alternate between the two 
+lists and return a reference to the head of the single list. Try and keep additional 
+space down to O(1). You have access to the Node class and all the properties on the L
+inked List class as well as the methods created in previous challenges.
+
+## Solution
+
+![merge_linked_list](../../assets/merge_linked_list.jpg)
+
+
 
