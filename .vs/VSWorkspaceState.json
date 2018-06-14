@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
     "\\Challenges",
-    "\\Challenges\\Adjacent_Product",
-    "\\Challenges\\Array_binary_search\\Array_binary_search",
-    "\\Data_Structures\\Arrays"
+    "\\Challenges\\LinkedLists",
+    "\\Challenges\\LinkedLists\\LinkedLists"
   ],
-  "SelectedNode": "\\Challenges\\Adjacent_Product\\Adjacent_Product",
+  "SelectedNode": "\\Challenges\\LinkedLists\\README.md",
   "PreviewInSolutionExplorer": false
 }

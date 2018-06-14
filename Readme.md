@@ -9,3 +9,5 @@
 3. [Linked Lists](./Challenges/LinkedLists/README.md)
 
 4. [Kth Element](./Challenges/LinkedLists/README.md)
+
+5. [Merge Linked List](./Challenges/LinkedLists/README.md)

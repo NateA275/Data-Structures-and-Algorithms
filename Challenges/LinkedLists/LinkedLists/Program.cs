@@ -7,22 +7,16 @@ namespace LinkedLists
     {
         static void Main(string[] args)
         {
-            Node n1 = new Node(1);
-            MyLinkedList ll = new MyLinkedList(n1);
+            MyLinkedList list1 = new MyLinkedList(new Node(1));
+            MyLinkedList list2 = new MyLinkedList(new Node(5));
+            
+            list1.AddLast(new Node(2));
+            list2.AddLast(new Node(10));
+            list2.AddLast(new Node(15));
+            list2.AddLast(new Node(20));
+            list1.Merge(list1, list2);
 
-            Node n2 = new Node(2);
-            Node n3 = new Node(3);
-            Node n4 = new Node(4);
-            Node n5 = new Node(5);
-
-            ll.AddLast(n2);
-            ll.AddLast(n3);
-            ll.AddLast(n4);
-            ll.AddLast(n5);
-
-            Console.WriteLine(ll.KthElement(7).Value);
-
-            ll.Print();
+            list1.Print();
 
             Console.ReadLine();
         }
