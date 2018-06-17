@@ -64,7 +64,9 @@ namespace LinkedLists.Classes
                     Current = Current.Next;
             }
             if (k > counter)
-                return null;
+            {
+                throw new NullReferenceException();
+            }
             return Current;
         }
 
