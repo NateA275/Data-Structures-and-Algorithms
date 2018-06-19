@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Challenges",
-    "\\Challenges\\LinkedLists",
-    "\\Challenges\\LinkedLists\\LinkedLists",
+    "\\Challenges\\Queue_With_Stacks",
     "\\Data_Structures"
   ],
-  "SelectedNode": "\\Challenges\\LinkedLists\\LinkedLists\\Program.cs",
+  "SelectedNode": "\\Data_Structures\\Queues",
   "PreviewInSolutionExplorer": false
 }
