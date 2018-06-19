@@ -11,3 +11,7 @@
 4. [Kth Element](./Challenges/LinkedLists/README.md)
 
 5. [Merge Linked List](./Challenges/LinkedLists/README.md)
+
+6. [Stack](./Data_Structures/Stacks/README.md)
+
+7. [Queue](./Data_Structures/Queues/README.md)
