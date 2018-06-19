@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges\\LinkedLists",
-    "\\Challenges\\LinkedLists\\LinkedLists",
-    "\\Challenges\\LinkedLists\\LinkedLists\\Classes"
+    "\\Challenges",
+    "\\Data_Structures",
+    "\\Data_Structures\\Linked_Lists",
+    "\\Data_Structures\\Queues"
   ],
-  "SelectedNode": "\\Challenges",
+  "SelectedNode": "\\Data_Structures\\Queues\\README.md",
   "PreviewInSolutionExplorer": false
 }

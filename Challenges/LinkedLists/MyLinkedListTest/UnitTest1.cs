@@ -274,5 +274,102 @@ namespace MyLinkedListTest
             Assert.NotEqual(found, thirdNode);
             Assert.Equal(found, firstNode);
         }
+
+
+        [Theory]
+        [InlineData(10)]
+        [InlineData(1000)]
+        [InlineData(-20)]
+        public void EnqueueAddsNodeToTail(int value)
+        {
+            //Arrange
+            Node firstNode = new Node(1);
+            Node secondNode = new Node(value);
+            MyQueue queue1 = new MyQueue(firstNode);
+
+            //Act
+            queue1.Enqueue(secondNode);
+
+            //Assert
+            Assert.Equal(secondNode.Value, queue1.Tail.Value);
+        }
+
+        [Fact]
+        public void DequeueReturnsNode()
+        {
+            //Arrange
+            Node firstNode = new Node(1);
+            Node secondNode = new Node(2);
+            MyQueue queue1 = new MyQueue(firstNode);
+            queue1.Enqueue(secondNode);
+
+            //Act
+            Node returned = queue1.Dequeue();
+
+            //Assert
+            Assert.Equal(firstNode, returned);
+        }
+
+
+        [Fact]
+        public void DequeueRemovesNodeFromHead()
+        {
+            //Arrange
+            Node firstNode = new Node(1);
+            Node secondNode = new Node(2);
+            MyQueue queue1 = new MyQueue(firstNode);
+            queue1.Enqueue(secondNode);
+
+            //Act
+            Node returned = queue1.Dequeue();
+
+            //Assert
+            Assert.Equal(secondNode, queue1.Head);
+        }
+
+
+        [Fact]
+        public void PushAddsNodeToTopOfStack()
+        {
+            //Arrange
+            MyStack newStack = new MyStack(new Node(1));
+            Node secondNode = new Node(2);
+
+            //Act
+            newStack.Push(secondNode);
+
+            //Assert
+            Assert.Equal(newStack.Top, secondNode);
+        }
+
+        [Fact]
+        public void PopRemovesNodeFromTop()
+        {
+            //Arrange
+            MyStack newStack = new MyStack(new Node(1));
+            newStack.Push(new Node(2));
+            newStack.Push(new Node(3));
+
+            //Act
+            Node returned = newStack.Pop();
+
+            //Assert
+            Assert.Equal(3, returned.Value);
+        }
+
+        [Fact]
+        public void PeekReturnsValueOfTopNode()
+        {
+            //Arrange
+            MyStack newStack = new MyStack(new Node(1));
+            newStack.Push(new Node(2));
+            newStack.Push(new Node(3));
+
+            //Act
+            int value = newStack.Peek();
+
+            //Assert
+            Assert.Equal(3, value);
+        }
     }
 }

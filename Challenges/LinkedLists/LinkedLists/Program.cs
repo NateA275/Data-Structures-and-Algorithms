@@ -12,25 +12,17 @@ namespace LinkedLists
             Node secondNode = new Node(2);
             Node thirdNode = new Node(3);
 
-            MyLinkedList list1 = new MyLinkedList(firstNode);
+            MyStack stack1 = new MyStack(firstNode);
 
-            list1.AddLast(thirdNode);
+            stack1.Push(secondNode);
+            stack1.Push(thirdNode);
 
-            list1.AddAfter(secondNode, firstNode);
-
-            try
-            {
-                list1.KthElement(5);
-
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine(ex.Message);
-            }
+            stack1.Print();
 
 
-            list1.Print();
+
+
+            
             Console.ReadLine();
         }
     }
