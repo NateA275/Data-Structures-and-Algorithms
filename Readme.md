@@ -15,3 +15,5 @@
 6. [Stack](./Data_Structures/Stacks/README.md)
 
 7. [Queue](./Data_Structures/Queues/README.md)
+
+8. [Queue_With_Stacks](./Challenges/Queue_With_Stacks/README.md)
