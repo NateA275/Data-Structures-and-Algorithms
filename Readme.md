@@ -17,3 +17,5 @@
 7. [Queue](./Data_Structures/Queues/README.md)
 
 8. [Queue_With_Stacks](./Challenges/Queue_With_Stacks/README.md)
+
+9. [Animal Shleter](./Challenges/Animal_Shelter/README.md)
