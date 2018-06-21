@@ -49,5 +49,53 @@ namespace BracketTesting
             //Assert
             Assert.Equal(expected, response);
         }
+
+        [Fact]
+        public void CompareBractetsParans()
+        {
+            //Act
+            bool result = Program.CompareBrackets('(', ')');
+
+            //Assert
+            Assert.True(result);
+        }
+
+        [Theory]
+        [InlineData('{', '}')]
+        [InlineData('[', ']')]
+        public void CompareBracketsReturnsTrue(char first, char second)
+        {
+            //Act
+            bool result = Program.CompareBrackets(first, second);
+
+            //Assert
+            Assert.True(result);
+        }
+
+
+        [Fact]
+        public void CompareBractetsUnmatchedParens()
+        {
+            //Act
+            bool result = Program.CompareBrackets('[', ')');
+
+            //Assert
+            Assert.False(result);
+        }
+
+
+        [Theory]
+        [InlineData('(', '}')]
+        [InlineData('{', ']')]
+        //[InlineData('[', ')')]
+        public void CompareBracketsReturnsFalse(char first, char second)
+        {
+            //Act
+            bool result = Program.CompareBrackets(first, second);
+
+            //Assert
+            Assert.False(result);
+        }
+
     }
 }

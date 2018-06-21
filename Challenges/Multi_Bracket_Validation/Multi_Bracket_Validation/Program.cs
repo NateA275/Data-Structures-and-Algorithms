@@ -45,7 +45,7 @@ namespace Multi_Bracket_Validation
 
 
         /// <summary>
-        /// CompareBracts - Checks to see if two characters are equivilent opening and closing brackets
+        /// CompareBrackets - Checks to see if two characters are equivilent opening and closing brackets
         /// </summary>
         /// <param name="first">char - Opening Bracket</param>
         /// <param name="second">char - Closing Bracket</param>
