@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\Challenges",
     "\\Challenges\\Multi_Bracket_Validation",
     "\\Challenges\\Multi_Bracket_Validation\\BracketTesting",
     "\\Challenges\\Multi_Bracket_Validation\\Multi_Bracket_Validation",
-    "\\Data_Structures"
+    "\\Data_Structures",
+    "\\Data_Structures\\Stacks\\Stacks",
+    "\\Data_Structures\\Stacks\\Stacks\\Stacks",
+    "\\Data_Structures\\Stacks\\Stacks\\Stacks\\Classes",
+    "\\Data_Structures\\Trees"
   ],
-  "SelectedNode": "\\Challenges\\Multi_Bracket_Validation\\BracketTesting\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }
