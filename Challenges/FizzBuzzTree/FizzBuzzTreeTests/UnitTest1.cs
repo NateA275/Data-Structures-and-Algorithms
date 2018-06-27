@@ -9,7 +9,7 @@ namespace FizzBuzzTreeTests
     {
         [Theory]
         [InlineData("3")]
-        [InlineData("6")]
+        [InlineData("-6")]
         [InlineData("9")]
         [InlineData("33")]
         public void FizzBuzzTreeProducesFizzForMultiplesOfThree(string multiple)
@@ -29,7 +29,7 @@ namespace FizzBuzzTreeTests
         [Theory]
         [InlineData("5")]
         [InlineData("10")]
-        [InlineData("25")]
+        [InlineData("-25")]
         [InlineData("55")]
         public void FizzBuzzTreeProducesBuzzForMultiplesOfFive(string multiple)
         {
@@ -47,7 +47,7 @@ namespace FizzBuzzTreeTests
 
         [Theory]
         [InlineData("15")]
-        [InlineData("30")]
+        [InlineData("-30")]
         [InlineData("45")]
         [InlineData("150")]
         public void FizzBuzzTreeProducesFizzBuzzForMultiplesOfFifteen(string multiple)
