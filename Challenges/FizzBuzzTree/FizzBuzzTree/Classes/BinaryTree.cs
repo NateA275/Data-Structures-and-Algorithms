@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace Trees.Classes
+namespace FizzBuzzTree.Classes
 {
     public class BinaryTree
     {
@@ -120,7 +121,7 @@ namespace Trees.Classes
             while (breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
-                if (front.Value == value)
+                if (front.Value.Equals(value))
                     return front;
 
                 if (front.LeftChild != null)
@@ -129,8 +130,36 @@ namespace Trees.Classes
                 if (front.RightChild != null)
                     breadth.Enqueue(front.RightChild);
             }
-
             return null;
+        }
+
+        /// <summary>
+        /// FizzBuzzTree - Changes Node values within the tree based on traditional FizzBuzz rules.
+        /// </summary>
+        /// <param name="root"> Node - Root Node of Binary Tree </param>
+        /// <returns> Node - Root Value of Binary Tree </returns>
+        public Node FizzBuzzTree(Node root)
+        {
+            int number;
+            bool isNum = Int32.TryParse(root.Value, out number);
+
+            if (isNum && number != 0)
+            {
+                if (number % 15 == 0)
+                    root.Value = "FizzBuzz";
+                else if (number % 5 == 0)
+                    root.Value = "Buzz";
+                else if (number % 3 == 0)
+                    root.Value = "Fizz";
+            }
+
+            if (root.LeftChild != null)
+                FizzBuzzTree(root.LeftChild);
+
+            if (root.RightChild != null)
+                FizzBuzzTree(root.RightChild);
+
+            return root;
         }
     }
 }

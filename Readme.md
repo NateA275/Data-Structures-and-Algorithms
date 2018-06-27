@@ -23,3 +23,5 @@
 10. [Multi Bracket Validation](./Challenges/Multi_Bracket_Validation/README.md)
 
 12. [Trees](./Data_Structures/Trees/README.md)
+
+13. [FizzBuzzTree](./Challenges/FizzBuzzTree/README.md)

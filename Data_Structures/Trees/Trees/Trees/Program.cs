@@ -51,11 +51,7 @@ namespace Trees
             bst.PostOrder(newRoot);
 
             Console.WriteLine("BreadthFirst: 10, 5, 15, 3, 7, 13, 17");
-            bst.BreadthFirst(newRoot);
-
-
-
-
+            bst.BreadthFirst(newRoot);1
             Console.ReadLine();
         }
     }
