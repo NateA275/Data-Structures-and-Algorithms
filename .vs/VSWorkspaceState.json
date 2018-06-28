@@ -1,14 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges\\Multi_Bracket_Validation",
-    "\\Challenges\\Multi_Bracket_Validation\\BracketTesting",
+    "\\Challenges\\FizzBuzzTree",
     "\\Challenges\\Multi_Bracket_Validation\\Multi_Bracket_Validation",
-    "\\Data_Structures",
-    "\\Data_Structures\\Stacks\\Stacks",
-    "\\Data_Structures\\Stacks\\Stacks\\Stacks",
-    "\\Data_Structures\\Stacks\\Stacks\\Stacks\\Classes",
+    "\\Challenges\\Queue_With_Stacks",
     "\\Data_Structures\\Trees"
   ],
+  "SelectedNode": "\\Challenges",
   "PreviewInSolutionExplorer": false
 }
