@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges\\FizzBuzzTree",
-    "\\Challenges\\Multi_Bracket_Validation\\Multi_Bracket_Validation",
-    "\\Challenges\\Queue_With_Stacks",
-    "\\Data_Structures\\Trees"
+    "\\Challenges",
+    "\\Challenges\\FindMaxBinaryTree",
+    "\\Challenges\\FizzBuzzTree"
   ],
-  "SelectedNode": "\\Challenges",
+  "SelectedNode": "\\Challenges\\FindMaxBinaryTree\\FindMaxBinaryTree",
   "PreviewInSolutionExplorer": false
 }
