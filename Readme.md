@@ -27,3 +27,5 @@
 13. [FizzBuzzTree](./Challenges/FizzBuzzTree/README.md)
 
 14. [Find Max Value](./Challenges/FindMaxBinaryTree/README.md)
+
+15. [Graph](./Data_Structures/Graphs/README.md)
