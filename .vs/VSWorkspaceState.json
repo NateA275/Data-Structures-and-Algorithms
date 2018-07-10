@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges",
-    "\\Challenges\\FindMaxBinaryTree",
-    "\\Challenges\\FizzBuzzTree"
+    "\\Challenges"
   ],
-  "SelectedNode": "\\Challenges\\FindMaxBinaryTree\\FindMaxBinaryTree",
+  "SelectedNode": "\\Data_Structures",
   "PreviewInSolutionExplorer": false
 }
