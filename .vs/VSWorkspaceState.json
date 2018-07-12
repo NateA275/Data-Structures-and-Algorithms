@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Challenges",
-    "\\Challenges\\Adjacent_Product",
-    "\\Challenges\\Array_binary_search\\Array_binary_search",
-    "\\Data_Structures\\Arrays"
+    "\\Data_Structures",
+    "\\Data_Structures\\Trees\\Trees",
+    "\\Data_Structures\\Trees\\Trees\\Trees"
   ],
-  "SelectedNode": "\\Challenges\\Adjacent_Product\\Adjacent_Product",
+  "SelectedNode": "\\Readme.md",
   "PreviewInSolutionExplorer": false
 }

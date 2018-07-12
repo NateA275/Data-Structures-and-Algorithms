@@ -17,6 +17,59 @@ namespace LinkedLists.Classes
             Current = node;
         }
 
+        /// <summary>
+        /// Merge - Combines two linked lists in a zipper-like fashion
+        /// </summary>
+        /// <param name="list1"> MyLinkedList - First node in resultant list will be from this list</param>
+        /// <param name="list2"> MyLinkedList - List to be merged with first list</param>
+        /// <returns> Node - Head of resualtant MyLinkedList </returns>
+        public Node Merge(MyLinkedList list1, MyLinkedList list2)
+        {
+            list1.Current = list1.Head;
+            list2.Current = list2.Head;
+            Node runner1 = list1.Head;
+            Node runner2 = list2.Head;
+            while (runner1.Next != null && runner2.Next != null)
+            {
+                runner1 = runner1.Next;
+                runner2 = runner2.Next;
+                list2.Current.Next = list1.Current.Next;
+                list1.Current.Next = list2.Current;
+                list1.Current = runner1;
+                list2.Current = runner2;
+            }
+            if (list2.Current.Next == null)
+                list2.Current.Next = list1.Current.Next;
+            list1.Current.Next = list2.Current;
+            return list1.Head;
+        }
+
+
+        /// <summary>
+        /// KthElement - Select an element that is k elements from the end of the linked list
+        /// </summary>
+        /// <param name="k"> int - number from last element to be selected </param>
+        /// <returns> Node - node that is k elements from the end </returns>
+        public Node KthElement(int k)
+        {
+            Current = Head;
+            Node runner = Head;
+            int counter = 0;
+
+            while (runner.Next != null)
+            {
+                counter++;
+                runner = runner.Next;
+                if (counter > k)
+                    Current = Current.Next;
+            }
+            if (k > counter)
+            {
+                throw new NullReferenceException();
+            }
+            return Current;
+        }
+
 
         /// <summary>
         /// Add - adds a node to the front of the linked list

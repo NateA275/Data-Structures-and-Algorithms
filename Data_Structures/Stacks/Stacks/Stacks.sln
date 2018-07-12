@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks", "Stacks\Stacks.csproj", "{1A26B7DA-1D8F-43B0-8571-7EC9B231B6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack_Test", "Stack_Test\Stack_Test.csproj", "{58E4A80A-1FAA-4EF1-BBD7-FACA7CDA0A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A26B7DA-1D8F-43B0-8571-7EC9B231B6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A26B7DA-1D8F-43B0-8571-7EC9B231B6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A26B7DA-1D8F-43B0-8571-7EC9B231B6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A26B7DA-1D8F-43B0-8571-7EC9B231B6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E4A80A-1FAA-4EF1-BBD7-FACA7CDA0A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E4A80A-1FAA-4EF1-BBD7-FACA7CDA0A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E4A80A-1FAA-4EF1-BBD7-FACA7CDA0A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E4A80A-1FAA-4EF1-BBD7-FACA7CDA0A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB804D8-E26F-4069-9345-9975226918F2}
+	EndGlobalSection
+EndGlobal
