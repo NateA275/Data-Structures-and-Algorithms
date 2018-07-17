@@ -30,10 +30,7 @@
 
 15. [Graph](./Data_Structures/Graphs/README.md)
 
-<<<<<<< HEAD
 16. [Find Islands](./Challenges/Find_Islands/README.md)
 
 17. [Hashtable](./Data_Structures/Hashtables/README.md)
-=======
-16. [Find Islands](./Challenges/Find_Islands/README.md)
->>>>>>> 194943d65a6faf639b3c4e0a34fb03cf5028315a
+
