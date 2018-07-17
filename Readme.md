@@ -31,3 +31,5 @@
 15. [Graph](./Data_Structures/Graphs/README.md)
 
 16. [Find Islands](./Challenges/Find_Islands/README.md)
+
+17. [Hashtable](./Data_Structures/Hashtables/README.md)
