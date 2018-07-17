@@ -1,11 +1,19 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\Challenges",
     "\\Data_Structures",
     "\\Data_Structures\\Graphs",
     "\\Data_Structures\\Hashtables"
   ],
   "SelectedNode": "\\Data_Structures\\Graphs\\README.md",
+=======
+    "\\Data_Structures",
+    "\\Data_Structures\\Trees\\Trees",
+    "\\Data_Structures\\Trees\\Trees\\Trees"
+  ],
+  "SelectedNode": "\\Readme.md",
+>>>>>>> 194943d65a6faf639b3c4e0a34fb03cf5028315a
   "PreviewInSolutionExplorer": false
 }
