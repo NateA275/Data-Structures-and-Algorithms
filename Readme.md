@@ -34,3 +34,5 @@
 
 17. [Hashtable](./Data_Structures/Hashtables/README.md)
 
+18. [Find Intersection](./Challenges/Tree_Intersection/README.md)
+
