@@ -36,3 +36,5 @@
 
 18. [Find Intersection](./Challenges/Tree_Intersection/README.md)
 
+19. [LeftJoin](./Challenges/LeftJoin/README.md)
+
