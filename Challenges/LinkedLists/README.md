@@ -35,10 +35,32 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 Return the node that is k from the end of the linked list. You have access to the Node class and 
 all the properties on the Linked List class as well as the methods created in previous challenges. ​
 
-## Solution
+## Whiteboard
 
 ![kth_Element](../../assets/kth_element.jpg)
 
+## Code
+```C#
+        public Node KthElement(int k)
+        {
+            Current = Head;
+            Node runner = Head;
+            int counter = 0;
+
+            while (runner.Next != null)
+            {
+                counter++;
+                runner = runner.Next;
+                if (counter > k)
+                    Current = Current.Next;
+            }
+            if (k > counter)
+            {
+                throw new NullReferenceException();
+            }
+            return Current;
+        }
+```
 ---
 
 # Merge Linked Lists
@@ -54,7 +76,7 @@ lists and return a reference to the head of the single list. Try and keep additi
 space down to O(1). You have access to the Node class and all the properties on the L
 inked List class as well as the methods created in previous challenges.
 
-## Solution
+## Whiteboard
 
 ![merge_linked_list](../../assets/merge_linked_list.jpg)
 
