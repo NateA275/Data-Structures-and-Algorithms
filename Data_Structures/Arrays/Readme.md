@@ -2,11 +2,10 @@
 
 ## What is an Array?
 
-An array is a collection of same-typed elements.
-Each eleement in an array is accessed using it's index number.
-Arrays have a length property.
-Index numbers start at zero.
-The last index of an array is it's length minus 1.
+> An array is a collection of same-typed elements.
+An array's length property represents the number of elements contained in the array.
+Each element in an array is accessed using it's index number.
+Index numbers range from zero through the length of the array minus 1.
 
 ## What is it used for? Why?
 
