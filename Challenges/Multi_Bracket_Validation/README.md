@@ -14,6 +14,41 @@ Square Brackets : []
 
 Curly Brackets : {}
 
-## Solution
+## Whiteboard
 
 ![multi_bracket_validation](../../assets/multi_bracket.jpg)
+
+## Code
+```C#
+        /// <summary>
+        /// MultiBracketValidation - Verifies if input string contains validly formatted bracketing.
+        /// </summary>
+        /// <param name="input"> string - Input to be validated for bracketing </param>
+        /// <returns>bool - True if valid, false if not. </returns>
+        public static bool MultiBracketValidation(string input)
+        {
+            string validChars = "(){}[]";
+
+            Stack myStack = new Stack();
+
+            foreach (char c in input)
+            {
+                if (validChars.Contains(c))
+                {
+                    if (myStack.Top == null)
+                    {
+                        myStack.Push(new Node(c));
+                    }
+                    else if (CompareBrackets(myStack.Top.Value, c))
+                    {
+                        myStack.Pop();
+                    }
+                    else
+                    {
+                        myStack.Push(new Node(c));
+                    }
+                }
+            }
+            return (myStack.Top == null) ? true : false;
+        }
+```
