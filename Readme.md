@@ -1,5 +1,6 @@
 # Data Structures and Algorithms
-
+> This project is an exercise in manipulating common Data Structures
+> in order to solve selected programming challenges. 
 
 ## Data Structures
 1. [Arrays](./Data_Structures/Arrays)
@@ -18,26 +19,26 @@
 
 ## Completed Challenges
 
-1. [Array Reverse](./Challenges/Array_Reverse)
+1. [Reverse an Array](./Challenges/Array_Reverse)
 
-2. [Binary Search](./Challenges/Array_binary_search)
+2. [Array Binary Search](./Challenges/Array_binary_search)
 
-3. [Kth Element](./Challenges/LinkedLists)
+3. [Find Kth Element of Linked List](./Challenges/LinkedLists)
 
-4. [Merge Linked List](./Challenges/LinkedLists)
+4. [Merge two Linked Lists](./Challenges/LinkedLists)
 
-5. [Queue_With_Stacks](./Challenges/Queue_With_Stacks)
+5. [Emulate a Queue with two Stacks](./Challenges/Queue_With_Stacks)
 
-6. [Animal Shleter](./Challenges/Animal_Shelter)
+6. [Animal Shleter Stack](./Challenges/Animal_Shelter)
 
-7. [Multi Bracket Validation](./Challenges/Multi_Bracket_Validation)
+7. [Multi Bracket Validation Stack](./Challenges/Multi_Bracket_Validation)
 
-8. [FizzBuzzTree](./Challenges/FizzBuzzTree)
+8. [FizzBuzz Tree](./Challenges/FizzBuzzTree)
 
-9. [Find Max Value](./Challenges/FindMaxBinaryTree)
+9. [Find Max Value in Binary Tree](./Challenges/FindMaxBinaryTree)
 
-10. [Find Islands](./Challenges/Find_Islands)
+10. [Find Islands in a Graph](./Challenges/Find_Islands)
 
-11. [Find Intersection](./Challenges/Tree_Intersection)
+11. [Find Intersection in two Trees](./Challenges/Tree_Intersection)
 
-12. [LeftJoin](./Challenges/LeftJoin)
+12. [Left Join two Hashtables](./Challenges/LeftJoin)
