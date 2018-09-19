@@ -2,7 +2,7 @@
 
 ## What is a Stack?
 
-A Stack is a linear data type which holds Nodes and operates using a 'Last-in-first-out'
+> A Stack is a linear data type which holds Nodes and operates using a 'Last-in-first-out'
 ordering. A stack only has one property, the 'Top', which contains a referance to the top-most 
 node in the stack. Pop() removes nodes from the top of the stack, while Push() adds a node to the
 top of the stack.
