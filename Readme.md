@@ -1,40 +1,43 @@
 # Data Structures and Algorithms
 
-## Completed DSA Challenges and Implementations
 
-1. [Array Reverse](./Challenges/Array_Reverse/readme.md)
+## Data Structures
+1. [Arrays](./Data_Structures/Arrays)
 
-2. [Binary Search](./Challenges/Array_binary_search/Readme.md)
+2. [Graphs](./Data_Structures/Graphs)
 
-3. [Linked Lists](./Challenges/LinkedLists/README.md)
+3. [Hashtables](./Data_Structures/Hashtables)
 
-4. [Kth Element](./Challenges/LinkedLists/README.md)
+4. [Linked Lists](./Challenges/LinkedLists)
 
-5. [Merge Linked List](./Challenges/LinkedLists/README.md)
+5. [Queues](./Data_Structures/Queues)
 
-6. [Stack](./Data_Structures/Stacks/README.md)
+6. [Stacks](./Data_Structures/Stacks)
 
-7. [Queue](./Data_Structures/Queues/README.md)
+7. [Trees](./Data_Structures/Trees)
 
-8. [Queue_With_Stacks](./Challenges/Queue_With_Stacks/README.md)
+## Completed Challenges
 
-9. [Animal Shleter](./Challenges/Animal_Shelter/README.md)
+1. [Array Reverse](./Challenges/Array_Reverse)
 
-10. [Multi Bracket Validation](./Challenges/Multi_Bracket_Validation/README.md)
+2. [Binary Search](./Challenges/Array_binary_search)
 
-12. [Trees](./Data_Structures/Trees/README.md)
+3. [Kth Element](./Challenges/LinkedLists)
 
-13. [FizzBuzzTree](./Challenges/FizzBuzzTree/README.md)
+4. [Merge Linked List](./Challenges/LinkedLists)
 
-14. [Find Max Value](./Challenges/FindMaxBinaryTree/README.md)
+5. [Queue_With_Stacks](./Challenges/Queue_With_Stacks)
 
-15. [Graph](./Data_Structures/Graphs/README.md)
+6. [Animal Shleter](./Challenges/Animal_Shelter)
 
-16. [Find Islands](./Challenges/Find_Islands/README.md)
+7. [Multi Bracket Validation](./Challenges/Multi_Bracket_Validation)
 
-17. [Hashtable](./Data_Structures/Hashtables/README.md)
+8. [FizzBuzzTree](./Challenges/FizzBuzzTree)
 
-18. [Find Intersection](./Challenges/Tree_Intersection/README.md)
+9. [Find Max Value](./Challenges/FindMaxBinaryTree)
 
-19. [LeftJoin](./Challenges/LeftJoin/README.md)
+10. [Find Islands](./Challenges/Find_Islands)
 
+11. [Find Intersection](./Challenges/Tree_Intersection)
+
+12. [LeftJoin](./Challenges/LeftJoin)
