@@ -15,7 +15,7 @@ allocation, which allows the same memory allocation to be used when it becomes a
 
 ## Visual of what it looks like.
 
-![stack](../../assets/stack.PNG)
+<img src="../../assets/stack.PNG" width="350">
 
 ## Resources
 
