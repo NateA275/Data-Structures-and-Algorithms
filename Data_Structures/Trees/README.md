@@ -2,7 +2,7 @@
 
 ## What is a Tree?
 
-A tree is a binary data structure in which each node is linked to at most two successor nodes.
+> A tree is a binary data structure in which each node is linked to *at most* two successor nodes.
 
 
 ## What is it used for? Why?
