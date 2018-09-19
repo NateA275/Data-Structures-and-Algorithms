@@ -1,9 +1,8 @@
 ﻿# Linked Lists
 
-## Summary
+## What is a Linked List?
 
-This project is a exercise in the implementation of the Linked List data structure.
-Linked Lists are a linear data type, and can be used in a similar way as Arrays.
+> Linked Lists are a linear data type, and can be used in a similar way as Arrays.
 Unlike Arrays, Linked Lists allow for more dynamic uses such as adding, inserting, and deleting.
 Also unlike Arrays, random access is not possible with Linked Lists. All elements must be accessed
 sequentially, making implementation a case-by-case decision.
@@ -23,10 +22,11 @@ contains several methods for manipulating nodes within the list.
 Linked lists are best implemented when data-set size is variable and insertion/deletion operation are frequently used.
 Linked list are best avoided when sorting and when random access are common required operations.
 
+---
 
 # Kth Element From the End of the Linked List
 
-This method is an exercise in manipulating linked lists. 
+> This method is an exercise in manipulating linked lists. 
 It returns the element that is k elements from the last element.
 
 ## Challenge
@@ -39,10 +39,11 @@ all the properties on the Linked List class as well as the methods created in pr
 
 ![kth_Element](../../assets/kth_element.jpg)
 
+---
 
 # Merge Linked Lists
 
-This method can merge two seperate linked list into one linked list.
+> This method can merge two seperate linked list into one linked list.
 It takes two linked lists as parameters, and returns the head of the resultant linked list.
 
 ## Challenge
