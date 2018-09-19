@@ -9,6 +9,3 @@ the provided array argument with elements in reversed order.
 ## Image
 
 ![whiteboard_image](../../assets/array_reverse.jpg)
-
-## Explanation
-
