@@ -80,5 +80,27 @@ inked List class as well as the methods created in previous challenges.
 
 ![merge_linked_list](../../assets/merge_linked_list.jpg)
 
-
+## Code
+```C#
+        public Node Merge(MyLinkedList list1, MyLinkedList list2)
+        {
+            list1.Current = list1.Head;
+            list2.Current = list2.Head;
+            Node runner1 = list1.Head;
+            Node runner2 = list2.Head;
+            while (runner1.Next != null && runner2.Next != null)
+            {
+                runner1 = runner1.Next;
+                runner2 = runner2.Next;
+                list2.Current.Next = list1.Current.Next;
+                list1.Current.Next = list2.Current;
+                list1.Current = runner1;
+                list2.Current = runner2;
+            }
+            if (list2.Current.Next == null)
+                list2.Current.Next = list1.Current.Next;
+            list1.Current.Next = list2.Current;
+            return list1.Head;
+        }
+```
 
