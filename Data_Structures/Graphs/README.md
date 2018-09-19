@@ -2,7 +2,7 @@
 
 ## What is a Graph?
 
-A graph is a non-linear data structure that can be looked at as a collection of points made up of
+> A graph is a non-linear data structure that can be looked at as a collection of points made up of
 vertices (or nodes), which are potentially connected by line segments called edges.
 
 
